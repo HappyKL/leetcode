@@ -1,5 +1,6 @@
 #include <iostream>
-#include "twoSum.cpp"
+#include <stack>
+#include "1-twoSum.cpp"
 int main() {
     //---------------------------- leetcode 1 twoSum ----------------------------
     TwoSum twoSum;
@@ -10,5 +11,15 @@ int main() {
         cout << result[i] << endl;
 
     //---------------------------- leetcode 2
+
+
+
+    //----------------------------
+    stack<int> abc;
+    printf("abc %d",abc.size());
+
+    if(abc.empty()){
+        printf("bcd");
+    }
     return 0;
 }
