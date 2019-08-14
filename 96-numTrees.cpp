@@ -2,7 +2,7 @@
 // Created by KANG on 2019-08-14.
 //
 
-//亚特兰数
+//卡特兰数
 
 class NumTrees {
 public:
@@ -20,7 +20,7 @@ public:
         return result_vector[n];
     }
 
-    //直接利用亚特兰数的递推公式 h(n) = (4*n-2)*h(n-1) / (n+1)
+    //直接利用卡特兰数的递推公式 h(n) = (4*n-2)*h(n-1) / (n+1)
     int numTrees_math(int n) {
         //int result = 1;   不能是int，公式可能会超出int范围
         long result = 1;

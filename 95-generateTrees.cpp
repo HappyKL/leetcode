@@ -5,7 +5,7 @@
 using namespace std;
 //  Definition for a binary tree node.
 
-//亚特兰数
+//卡特兰数
 struct TreeNode {
     int val;
     TreeNode *left;
